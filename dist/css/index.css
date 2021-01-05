@@ -1,0 +1,323 @@
+
+/* Nav CSS */
+#container-div {
+  width: 40%;
+  margin-left: 28%;
+  min-width: 900px;
+}
+.navbar-expand-lg {
+  height: 75px;
+}
+.navbar-nav {
+  margin-left: 50px;
+}
+#navbarTogglerDemo02 {
+  margin-top: 5px;
+}
+.bi-person-fill {
+  margin-top: -3px;
+}
+.nav-link {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.d-flex {
+  margin-top: 10px;
+}
+#search-bar {
+  width: 400px;
+  border-radius: 20px;
+}
+#search-button {
+  width: 50px;
+  color: black;
+}
+.glyphicon-user,
+.glyphicon-stats {
+  font-size: 25px;
+  color: black;
+}
+#submit {
+  border-radius: 15px;
+  margin-left: 15px;
+}
+/* Desktop Page */
+#content {
+  margin-top: 170px;
+  width: 40%;
+  margin-left: 26%;
+  min-width: 900px;
+}
+body {
+  width: 100%;
+}
+.error-message {
+  display: none;
+  text-align: center;
+}
+#mobile-section {
+  display: none;
+}
+/* Movie details page */
+#movie-details {
+  margin-top: 50px;
+  width: 40%;
+  margin-left: 28%;
+}
+#large-image {
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 0 0 0.5em gray;
+}
+#about {
+  margin-left: 350px;
+  margin-top: -450px;
+  width: 440px;
+}
+/* Cards CSS */
+.grid {
+  display: grid;
+}
+
+.grid-template-columns-1 {
+  grid-template-columns: 225px 225px 225px 225px;
+}
+.navbar-brand {
+  margin-left: -3%;
+}
+
+.item {
+  text-align: center;
+}
+.grid {
+  max-width: 800px;
+  margin-left: 4%;
+}
+#note {
+  position: absolute;
+  margin-top: 321px;
+  margin-left: 151px;
+}
+.card-img-top {
+  height: 250px;
+  border-radius: 10px 10px 0px 0px;
+}
+.card-title {
+  font-size: 14.5px;
+  text-align: left;
+  margin-left: -5px;
+  text-align: center;
+}
+.card-text {
+  margin-bottom: 300px;
+  font-size: 13px;
+  margin-left: 0px;
+  text-align: center;
+}
+.card {
+  height: 345px;
+  margin-top: 50px;
+  box-shadow: 0 0 0.5em gray;
+  border-radius: 10px;
+}
+.card-body {
+  margin-top: -16px;
+}
+/* Making the page responsive for multiple sizes */
+@media screen and (max-width: 1848px) {
+  #container-div, #movie-details {
+    width: 55%;
+    margin-left: 20.4%;
+    max-width: 900px;
+  }
+ 
+  .grid {
+    width: 100%;
+    margin-left: -100px;
+  }
+}
+@media screen and (max-width: 1626px) {
+  #container-div, #movie-details {
+    width: 62%;
+    margin-left: 19.5%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  #container-div, #movie-details {
+    width: 67%;
+    margin-left: 18.5%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  #container-div, #movie-details {
+    width: 75%;
+    margin-left: 16%;
+  }
+  .grid {
+    max-width: 400px;
+    margin-left: -130px;
+  }
+}
+@media screen and (max-width: 1220px) {
+  #container-div, #movie-details {
+    width: 80%;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #container-div, #movie-details {
+    width: 90%;
+    margin-left: 3%;
+  }
+  .d-flex {
+    margin-right: -5%;
+  }
+  .grid {
+    margin-left: -220px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  #container-div, #movie-details {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .d-flex {
+    margin-right: -7%;
+  }
+  .navbar-brand {
+    margin-left: 1%;
+  }
+  .grid {
+    max-width: 400px;
+    margin-left: -180px;
+  }
+}
+@media screen and (max-width: 993px) {
+  #container-div, #movie-details {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .d-flex {
+    margin-right: 2%;
+  }
+  .navbar-brand {
+    margin-left: 1%;
+  }
+  .nav-item {
+    margin-left: -45px;
+  }
+  #search-bar {
+    margin-left: -3px;
+    width: 100%;
+  }
+  .grid {
+    max-width: 400px;
+    margin-left: -230px;
+  }
+}
+/* Mobile page */
+@media screen and (max-width: 850px) {
+  /* Nav Css */
+  #search-bar {
+    border-radius: 20px;
+    margin-left: 00px;
+  }
+  #container-div {
+    width: 100%;
+    margin-left: 0%;
+    min-width: 370px;
+  }
+  .navbar-nav {
+    margin-left: 45px;
+  }
+  #search-bar {
+    width: 450px;
+    border-radius: 20px;
+    margin-left: -6px;
+  }
+  .navbar-expand-lg {
+    width: 100%;
+    min-width: 380px;
+  }
+  /* Cards CSS */
+  .grid {
+    display: grid;
+  }
+  .grid-template-rows-1 {
+    grid-template-rows: 50px 50px 50px 50px;
+  }
+  .item {
+    margin: 0px;
+
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .grid {
+    min-width: 200px;
+    margin: 0 auto;
+  }
+ 
+  .card-img-top {
+    height: 350px;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .card-title {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+  .card-text {
+    font-size: 13px;
+    font-style: monospace;
+    margin-left: 15px;
+  }
+  .card {
+    width: 15rem;
+    height: 450px;
+    margin-top: 50px;
+    box-shadow: 0 0 0.5em gray;
+    border-radius: 10px;
+  }
+  .card-body {
+    margin-top: -16px;
+    margin-left: -15px;
+  }
+  #note {
+    margin-left: 210px;
+    margin-top: 427px;
+    font-size: 14px;
+  }
+   /* page css */
+   #content,
+   #mobile-content {
+     margin-top: 170px;
+     margin-left: 19.5%;
+     min-width: 100px;
+   }
+   #desktop-section {
+    display: none;
+  }
+  #mobile-section {
+    display: block;
+    width: 100%;
+  }
+  .error-message {
+    display: none;
+    text-align: center;
+    margin-top: 200px;
+  }
+  /* Movie details page */
+  #movie-details {
+    margin-top: 170px;
+    width: 100%;
+    margin-left: 10%;
+  }
+  #about {
+    margin-left: 0px;
+    margin-top: -50px;
+    width: 240px;
+  }
+ 
+}
